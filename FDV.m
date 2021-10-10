@@ -3,7 +3,7 @@ function FDV(Global)
 % Fuzzy Decision Variable Framework (FDV) with various internal optimizers.
 % Rate    --- 0.8    --- Fuzzy evolution rate. Default = 0.8
 % Acc     --- 0.4    --- Step acceleration. Default = 0.4
-% optimiser     --- 5    --- Internal optimisation algorithm. 1 = NSGAII, 2 = NSGAIII, 3 = MOEAD, 4 = CMOPSO, 5 = LMOCSO. Default = LMOCSO.
+% optimiser     --- 1    --- Internal optimisation algorithm. 1 = NSGAII, 2 = NSGAIII, 3 = MOEAD, 4 = CMOPSO, 5 = LMOCSO. Default = LMOCSO.
 % type --- 1 --- The type of aggregation function. If it is based on the
 % MOEA/D algorithm, you need to set the aggregate function type. Default = 1
 
@@ -20,7 +20,7 @@ function FDV(Global)
 % ----------------------------------------------------------------------- 
 
     %% Set the default parameters
-    [Rate,Acc,optimiser,type] = Global.ParameterSet(0.8,0.4,5,1);
+    [Rate,Acc,optimiser,type] = Global.ParameterSet(0.8,0.4,1,1);
     
     %% NSGAII
     if optimiser==1
