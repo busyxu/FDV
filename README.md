@@ -6,4 +6,4 @@ A Fuzzy Decision Variables Framework for Large-scale Multiobjective Optimization
 
 平台：PlatEMO_v2.80 (https://github.com/BIMK/PlatEMO)
 
-参考文献：X. Yang, J. Zou, S. Yang, J. Zheng and Y. Liu, "A Fuzzy Decision Variables Framework for Large-scale Multiobjective Optimization," in IEEE Transactions on Evolutionary Computation, doi: 10.1109/TEVC.2021.3118593.
+参考文献：Yang X, Zou J, Yang S, et al. A Fuzzy Decision Variables Framework for Large-scale Multiobjective Optimization[J]. IEEE Transactions on Evolutionary Computation, 2021.
